@@ -8,9 +8,17 @@ using namespace std;
 
 ;int main(int argc, char **argv)
 {
-    cout <<"Witaj w C++!";
+    //char imie; //deklaracja zmiennej znakowej
+    char imie[10]; // deklaracja tablicy znakowej
+    cout <<"Witaj w C++!"<<endl;
+    cout <<"Podaj imię:";
+    //cin  >> imie;
+    cin.getline (imie, 10);
+    cout << "cześć " <<imie<<endl;
 
 	return 0;
 }
+
+
 
 
