@@ -18,26 +18,16 @@ int main(int argc, char **argv)
     if (a > b)
     { 
         if (a > c)
-        cout << "najwieksza a= " <<a;
-     else 
-    cout << "najwieksza c=" << c;
-    }
-    cout << "większe a" << a;
+            cout << "najwieksza a= " <<a;
+        else 
+            cout << "najwieksza c=" << c;
     }
     else if (b > a)
     {
     if (b > c);
     cout <<"najwieksze b= " << b;
-   } else
-   cout <<"najwieksze c=" <,c;
-    
-    {
-    cout << "Równe, a= " << a << " , b= " << b;
     }
-
-
-
-	 return 0
+	 return 0;
 
 }
 
