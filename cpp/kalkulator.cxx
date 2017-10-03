@@ -22,21 +22,21 @@ int main(int argc, char **argv)
     
     if (znak =='+')
     {
-    cout<<"suma dwoch liczb= "<<a+b;
+        cout<<"suma dwoch liczb= "<<a+b;
     }
     
     if (znak =='-')
     {
-    cout<<"różnica dwoch liczb= "<<a-b;    
+        cout<<"różnica dwoch liczb= "<<a-b;    
     }   
     if (znak =='*')
     {
-     cout<<"iloczyn dwoch liczb= "<<a*b;   
+        cout<<"iloczyn dwoch liczb= "<<a*b;   
     }
     
     if (znak =='/')
     {
-    cout<<"iloraz dwoch liczb= "<<a/b;
+        cout<<"iloraz dwoch liczb= "<<a/b;
     
     }   
     return 0;
