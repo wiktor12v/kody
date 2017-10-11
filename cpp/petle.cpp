@@ -20,7 +20,7 @@ int main(int argc, char **argv)
         
         if (i%10 == 0)
         {
-        cout <<i<<endl;
+            cout <<i<<endl;
         
         }
         //cout <<'*'<<endl;
