@@ -9,7 +9,7 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    char zn=0;
+    char zn=;
     while (zn !='t' || !='T' || !='n' ||!='N') 
     {
         cout<<"podaj miesiąc(1-12): ";
