@@ -21,7 +21,7 @@ int main(int argc, char **argv)
     int ile_razy = 0;
        
       cout <<"ile liczb podasz?"; 
-      cin>>ile_razy
+      cin>>ile_razy;
     for (i =0 ; i < ile_razy; i++)
     
     {
