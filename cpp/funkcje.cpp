@@ -29,6 +29,7 @@ int odejmij(int l1, int l2)
       }
           return 0;
     }
+    
 int main(int argc, char **argv)
 {
     int a, b;
@@ -41,6 +42,7 @@ int main(int argc, char **argv)
     dodaj(a,b);//wywolanie funkcji
     cout<<endl<<"różnica: "<< odejmij(a,b)<<endl;
     cout<<"iloczyn: "<< mnoz(a,b)<<endl;
+    cout<<"iloraz: "<<dziel(a,b)<<endl;
     
     return 0;
     
