@@ -8,6 +8,34 @@
 
 #include <iostream>
 using namespace std;
+
+void pobierzDane(int tab[],int ile)
+{
+
+
+    int i;
+    cout <<"podaj "<< ile << "liczb: " << endl;
+    for (i = 0; i<ile; i++)
+    {
+        cin>>tab[i];
+        
+    }
+}
+int sumuj(int tab[], int ile)
+    {
+int suma=0;
+for (int i = 0; i<ile; i++)
+{
+    suma+=tab[i];
+}
+return suma;
+    }
+float liczsrednia(int tab[], int ile)
+{
+    return sumuj(tab, ile)/float(ile);
+ 
+ 
+}
 int main(int argc, char **argv)
 {
     int ROZMIAR=0;
@@ -16,26 +44,13 @@ int main(int argc, char **argv)
     
     
     int liczby[ROZMIAR];
-    int i=0;
-    int suma=0;
-    //int srednia=0;
-    cout <<"podaj 5 ocen (0-6): "<<endl;
-    for (i = 0; i<ROZMIAR; i++)
-    {
-        cin>>liczby[i];
-        
-    }
-    
-    cout<<"podane oceny: "<<endl;
-    for(i = 0; i<ROZMIAR; i++)
-    {
-        cout << liczby[i]<< " ";
-        suma+=liczby[i];
-        
-    }
-    cout<<endl<<"suma jest ronwa: "<<suma<<endl;
-    cout<<endl<<"srednia jest ronwa: "<<float(suma)/float(ROZMIAR)<<endl;
+    //int i=0;
+    //int sumuj=0;
+
+    pobierzDane(liczby, ROZMIAR);
+    cout<<"suma wynosi: " <<sumuj(liczby, ROZMIAR)<<endl;
+    cout<<"srednia wynosi: "<<liczsrednia(liczby, ROZMIAR)<<endl;
     
     return 0;
-}
 
+}
