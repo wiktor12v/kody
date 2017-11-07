@@ -8,6 +8,6 @@ def odejmij(x, y):
     return x-y
 
 a =int (input('pdoaj liczbe: '))
-a =int (input('pdoaj liczbe: '))
+b =int (input('pdoaj liczbe: '))
 print('suma: ', sumuj (a,b))
 print('róznica: ', odejmij (a,b))
