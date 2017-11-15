@@ -31,19 +31,24 @@ def pobierz_typy(ileliczb):
 
 
 def main(args):
-    ileliczb = int(input("ile liczb chcesz zgadnąć?"))
-    maksliczb = int(input("Podaj górny zakres"))
+    try :
+        ileliczb = int(input("ile liczb chcesz zgadnąć?"))
+        maksliczb = int(input("Podaj górny zakres"))
 
-    while ileliczb > maksliczb:
-        ileliczb = int(input("ile liczb chcesz zgadnąć z %s?" % maksliczb))
+        while ileliczb > maksliczb:
+            ileliczb = int(
+                input("ile liczb chcesz zgadnąć z %s?" % maksliczb))
 
+    except ValueError:
+        print('Błędne dane!')
+        exit()
     liczby = losuj(ileliczb, maksliczb)
     typy = pobierz_typy(ileliczb)
 
     print(liczby)
-    print(typy)
     trafione = set(liczby) & typy
-    print(trafione)
+    print(typy)
+    print("trafione: ", len(trafione))
 
     return 0
 
