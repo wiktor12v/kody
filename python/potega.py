@@ -6,9 +6,9 @@
 
 def potega_it(podst, wykladnik):
     """Funkcja oblicza literacyjnie potęgęliczby naturalnej """
-    wynik =...
+    wynik = 1
     for i in range(wykladnik):
-        wynik =...
+        wynik = wynik * podst
     return wynik
 
 def main(args):
@@ -16,7 +16,9 @@ def main(args):
     #pobierz od uzytkownika postawe i wykladnik
     # i przypisz do odpowiednich zmiennych
     #wywolaj fukcje potega_it()
-
+    a = int(input("podaj podstawe: "))
+    n = int(input("podaj wykladnik: "))
+    print("potega: ", potega_it(a, n"))
 if __name__ == '__main__':
     import sys
     sys.exit(main(sys.argv))

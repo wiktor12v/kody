@@ -9,9 +9,8 @@ def potega_it(podst, wykladnik):
     wynik = 1
     i = 1
     # for i in range(wykladnik):
-    
-    while i<=wykladnik:
-        wynik = wynik*podst
+    while i <= wykladnik:
+        wynik = wynik * podst
         i += 1
     return wynik
 
@@ -21,10 +20,17 @@ def main(args):
     # wywołaj funkcję potega_it()
     podstawa = int(input("Podaj podstawę potęgi: "))
     wykladnik = int(input("Podaj wykładnik potęgi: "))
-    
-    print("Wynik: ", potega_it(podstawa, wykladnik))
-    
-    
+    assert type(podstawa) == int
+    assert type(wykladnik) == int
+
+    assert potega_it(100,0) == 1
+    assert potega_it(100,1) == 100
+    assert potega_it(2,3) == 8
+    # print("Wynik: ", potega_it(podstawa, wykladnik))
+
+
+
+
     return 0
 
 
