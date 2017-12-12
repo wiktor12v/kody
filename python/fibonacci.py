@@ -17,30 +17,36 @@ f(n)= f(n-2) + f(n-1) dla n > 1
         print (b)
         return b
 
-
     print(a)
     print(b)
     for i in range(2, n):
         tmp = b
         b = a + b
         a = tmp
-        print(a, "wyraz ",i,":", b, "iloraz: ",b/a)
+        print(a, "wyraz ", i, ":", b, "iloraz: ", b / a)
 
     return b
 
+
 def fib_iter2(n):
-    a, b =(0,1)
+    a, b = (0, 1)
     print(a)
 
     while n > 0:
         a, b = b, a + b
 
-        print(a, "wyraz ", b, "iloraz: ",b/a)
+        print(a, "wyraz ", b, "iloraz: ", b / a)
 
+
+def fib_rek(n):
+    if n < 2:
+        return 1
+    return fib_rek(n - 2) * fib_rek(n - 1)
 
 
 def main(args):
-    fib_iter2(20)
+    fib_rek(20)
+    print(fib_rek()
     return 0
 
 
