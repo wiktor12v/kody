@@ -7,10 +7,10 @@
 #include <iostream>
 using namespace std;
 
-float horner_it(int k, float tbwsp[],float x)
+float horner_it(int stopien, float tbwsp[],float x)
 {
     float wynik = tbwsp[0];
-    for(int i=1;i<k+1;i++)
+    for(int i=1;i<=stopien+1;i++)
     {
         wynik = wynik*x + tbwsp[i];
         

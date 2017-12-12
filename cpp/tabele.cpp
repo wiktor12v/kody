@@ -24,7 +24,7 @@ int main(int argc, char **argv)
     cout<<"podane oceny: "<<endl;
     for(i = 0; i<5; i++)
     {
-        cout << liczby[i]<< " ";
+        cout << liczby[i]<<<< " ";
         suma+=liczby[i];
         srednia=suma/5;
     }
