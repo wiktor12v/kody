@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+def euklides_rek(a,b):
+    if b==0:
+        return a
+    return euklides_rek(b, a%b)
 
 
 def euklides(a, b):
@@ -9,6 +13,7 @@ def euklides(a, b):
         else:
             b = b - a
     return a
+
 
 def euklides2(a, b):
     while a > 0:
@@ -25,9 +30,10 @@ def main(args):
 
     assert euklides(1989, 867) == 51
     assert euklides(10, 5) == 5
+    assert euklides_rek(10, 5) == 5
 
-    #print("najwiekszy wspolny dzielnik wynosi: ", euklides(a, b))
-    print("Nwd({:d}, {:d}) = {:d}".format(a, b , euklides2(a, b )))
+        ##print("Nwd({:d}, {:d}) = {:d}".format(a, b, euklides2(a, b)))
+    print("Nwd({:d}, {:d}) = {:d}".format(a, b, euklides_rek(a, b)))
     return 0
 
 

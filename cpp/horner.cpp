@@ -6,6 +6,17 @@
 
 #include <iostream>
 using namespace std;
+float horner_rek(k, tbwsp,x)
+{
+    if x==0:
+        return tbwsp[3]
+        
+    return 
+    
+    
+    
+}
+
 
 float horner_it(int stopien, float tbwsp[],float x)
 {
