@@ -13,6 +13,14 @@ def sort_wstaw(lista):
         lista[k + 1] = el  # wstawianie elementu
     return lista
 
+def sort_wstaw_bin(lista):
+    for i in range(1, len(lista)):
+        el = lista[i]
+        k = wyszukaj_bin_it(lewy, prawy,lista, el)
+
+        #tworzenie listy z wstawionym elementem
+        lista =
+
 
 def main(args):
     lista = [4, 3, 7, 0, 2, 3, 1, 9]
