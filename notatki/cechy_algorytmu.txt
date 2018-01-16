@@ -17,3 +17,13 @@ Algorytm może być **częsciowo poprawny, **jeśli dla obliczeń, które sie ko
 wnioskowanie indukcyjne  jest metodą dowodzenia czegoś, wyprowadzenia wniosków, w celu **uogólnienia**.  Przeciwnością jest dedukcja (**od ogółu do szczegółu**)
 
 **NALEŻY UWAŻAĆ NA BŁĘDY LOGICZNE BO KICHA BEDZIE XD**
+ 
+
+zbieżność czasowa ------> O(n), )(n^2), O(!n) 8=====D
+
+złożoność pamięciowa( ile pamięci potrzebuje by zakończyć działanie)
+ algorytmy iteracyjne mniej ociążają pamięć niż algorytmy rekurencyjne
+
+
+Efektywnośc algorytmu zależy od typu danych...............
+
