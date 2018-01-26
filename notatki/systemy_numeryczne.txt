@@ -52,4 +52,39 @@ System o podstawie 2
 FF= 15*16^1 + 15 * 16^0 = 255
 1111111
 
+====== Konwersja liczby dziesiętnej do systemu binarnego ======
+
+**dec2bin  (10)->**10000001(2)->**128 **+1
+129 [[/2]] = 64 reszty 1
+64/2= 32 reszty 0
+32/2 = 16 reszty 0
+16/2 = 8 reszty 0
+8/2= 4 reszty 0
+4/2 = 2 reszty 0
+2/2 = 1 reszty 0
+1/2 = 0 reszty 1
+
+dec2bin(174)
+174/2 = 87 reszty 0
+87/2 =43 reszty 1
+43/2 =21 reszty 1
+21/2= 10 reszty 1
+10/2 = 5 reszty 0
+5/2 = 2 reszty 1
+2/2 =1 reszty 0
+1/2 = 0 reszty 1
+10101110 
+174(10)->10101110-> 128 + 0 + 32 + 0 + 8 +4 +2 +0=174
+
+
+SYSTEM O PODSTAWIE 8 
+174(10) -> 2*64 + 5*8 = 6= 174
+174/8 =  21 reszta 6
+21/ 8 = 2 reszta 5
+2/8 = 0 reszta 2
+
+174 -
+
+
+
 
