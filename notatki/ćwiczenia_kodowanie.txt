@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-02T11:26:49+01:00
+
+====== ćwiczenia kodowanie ======
+Created piątek 02 luty 2018
+
+The rain in Spain falls mainly on the plain.
+The rain <3, 3> Spa<9,3> Falls m<11,3>on t<34,3> on the p<15,3> ⇒ 
+wspolczynnik kompersji
+Rc = Vk / Vnk * 100
+
+ile znakoów wstecz ⇒ 6 bitów
+długość ciągu ⇒ 2

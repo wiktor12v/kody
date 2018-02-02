@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-02-02T11:02:22+01:00
+
+====== kompresja ======
+Created piątek 02 luty 2018
+
+		MPEG- patrz wikipedia
+		
+		wypisz jakie formaty stosujemu do kompersowania dzwiekow
+		
+1. MP3, MP2, MP1
+2. WMA
+3. MP3PRO
+4. OGG VORBIS
+5. AAC
+6. 6A/52(DOLBY DIGITAL. AC3)
+7. MUSEPACK(MPC)
+8. ADPATIVE TRANSFORM ACOUSTIC COFING
+
+=== BITRATE(przepływność ===
+ilość bitów na sekundę (informacje/s)
+np. MP3 i 128bit/s
+CD 256bit/s
+
+kilobit -kb
+megabit- Mb
+megabajt- MB
+
+
+Null - 0
+LF - 10 (koniec lini)
+CR - 13 (carriage return)
+
+LF i CR znak konca lini w systemach Windows
+
+UNICODE
+kodowanie UTF-8 wykorzystuje od 1 do 6 bajtów do zakodowania pojedynczych znakow
+
+
+
+SOS
+ 000111000(***---***)
