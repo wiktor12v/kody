@@ -5,10 +5,16 @@ Creation-Date: 2018-02-02T11:26:49+01:00
 ====== ćwiczenia kodowanie ======
 Created piątek 02 luty 2018
 
-The rain in Spain falls mainly on the plain.
-The rain <3, 3> Spa<9,3> Falls m<11,3>on t<34,3> on the p<15,3> ⇒ 
+The rain in Spain falls mainly on the plain. ⇒ 44 znaki
+The rain <3, 3> Spa<9,3> Falls m<11,3>on t<34,3> on the p<15,3> ⇒ 33 znaki
 wspolczynnik kompersji
 Rc = Vk / Vnk * 100
+Rc =75%
 
 ile znakoów wstecz ⇒ 6 bitów
 długość ciągu ⇒ 2
+
+
+Formaty plików archiwów:
+1.zip
+2.rar
