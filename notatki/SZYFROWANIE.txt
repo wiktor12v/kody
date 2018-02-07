@@ -13,3 +13,18 @@ Kryptografia + kryptoanaliza = kryptologia
 
 do odszyfrowania szyfrowania potrzebny jest:
 **algorytm szyfrowania  ** oraz  **klucz**
+
+
+
+
+==== przestawieniowe ====
+Zapis tekstu w wierszach o ustalonej długośći.
+KLUCZ TO ILOŚĆ KOLUMN, NA KTORE DZIELIMY TEKST.
+
+TOBEORNOTTOBETHATISTHEQUESTIONAND
+
+TOBEORNOTT
+OBETHATIST
+HEQUESTION
+AND.......
+tohaobenbeqdetu.ohe.

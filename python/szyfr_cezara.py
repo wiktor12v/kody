@@ -27,9 +27,9 @@ def deszyfruj(szyfrogram, klucz):
         elif ascii > 122:
             ascii -= 26
         tekst += chr(ascii)
-        
-     return tekst
- 
+
+    return tekst
+
 #obsluzy male i duze litery
 
 
