@@ -28,3 +28,13 @@ OBETHATIST
 HEQUESTION
 AND.......
 tohaobenbeqdetu.ohe.
+
+===== szyfrowanie asymetryczne =====
+-WCZYTYWANIE STRON INTERNETOWYCH
+PROTOKÓŁ HTTPS
+SSL ⇒ TLS
+certyfikat to tozsamość serwera.
+
+PGP Pretty Good Privacy
+
+Kryptografia klucza publicznego (ciąg cyfr podawany do publicznej wiadomości)

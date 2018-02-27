@@ -39,6 +39,7 @@ def main(args):
     klucz = int(input("podaj klucz: "))
     szyfrogram = szyfruj(tekst, klucz)
     print(szyfrogram)
+    print(deszyfruj(szyfrogram, klucz))
     return 0
 
 
