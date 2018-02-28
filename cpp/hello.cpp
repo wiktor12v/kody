@@ -15,6 +15,8 @@ using namespace std;
     //cin  >> imie;
     cin.getline (imie, 10);
     cout << "cześć " <<imie<<endl;
+    ff
+    
 
 	return 0;
 }
