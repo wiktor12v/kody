@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-02T11:07:46+01:00
+
+====== Logiczny model komputra ======
+Created piątek 02 marzec 2018
+
+=== Architektura con Neumana ===
+Pierwszy składnik to procesor ( logiczna jednostka arytmetyczna).
+
+Napięcie od 3 do 5 Voltów - logiczna jedynka
+Napięcie około 0,2 volta - logiczne zero
+
+Procesor składa się z rejestrów, komórki, w których zapisywane są dane  <jednym z nich jest akumulator>
+rozmiary rejestrów współczesnego procesora to 64 bity.
+
+Drugi składnik to pamięć RAM( pamięc swobodnego dostępu)
+
+trzeci składnik: jednosta sterująca - synchronizuje pracę logicznych modułów komputera za pomocą szyny systemowej(daje podstawowe taktowanie wykonywania operacji[Mhz])
+oprócz  tego musza jeszcze byc dwie szynki :
+2)danych(przesyła dane)
+3) adresowa(decyduje gdzie trafiają dane)
+
+część danych bierze sie z pamięci ROM (Zachowuje dane na stałe.) = pamięć tylko do odczytu
+
+
+BIOS - podstawowy systej wejścia i wyjście 
+BIOS zastępiony przez UEFI
+
+czwarty składniik urządzenia wyjścia i wejścia
