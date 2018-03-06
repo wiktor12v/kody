@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-06T12:57:42+01:00
+
+====== systemy operacyjne ======
+Created wtorek 06 marzec 2018
+
+Otwarty system operacyjny -(jest on uniwersalny np. linux, Debian - najstarszy.
+Architektura amd 64(x64)(64 bit)
+Architektura i386 (32 bit)
+
+Rasberry pie 3
+
+Open source(Otwarte oprogramowanie)            
+                                                                                                     
+
+===== Funkcje systemu operacyjnego =====
+Mamy sprzęt komputerowy hardware.
+mamy użytkownika - usera.					⇐ ⇒ system operacyjny łączy te trzy rzeczy.
+Mamy oprogramowanie - softwar
+
+Pierwszym i najważniejszym składnikiem systemu operacyjnego jest jądro (warstwa oprogramowania operującą bezpośrednio na sprzęcie), daje wirtualny dostęp do aplikacji
+Sterownik urządzeń zewnętrznych
+Zarządzanie zasobami sprzętu
+pierwsze systemy byly przeznaczone dla jednego uzytkownika 
+
+Zwykly typek kojarzy system z interfejsem 
+interfejs tekstowy był udostępniany w formie terminala 
+Windows upowszechnił interfejs graficzny 
