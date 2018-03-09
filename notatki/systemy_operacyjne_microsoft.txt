@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-09T11:06:14+01:00
+
+====== systemy operacyjne microsoft ======
+Created piątek 09 marzec 2018
+
+MS-DOS ( system operacyjny stworzony przez firmę microsoft na podstawie nabytego przez nią kodu źródłowego systemu QDOS
+dir
+edit
+A i B to litery zarezerwowane dla dyskietek
+katalog główny
+Ścieżka względna to ścieżka  dotarcia  do miejsca, z którego sie znajdujemy
+.. - poziom do góry
+ściężka bezwzględna - podawana do katalogu głownego do miejsca do którego chcemy sie dostać
+w windowsie pliki musza miec rozszerzenia.
+w Linuxie plik jest rozpoznawany po nagłowki( sygnaturze, symbolu) -  nie musi być rozszerzeń
+.exe/.com = pliki ktore mozna uruchomic
+
+atrybuty w DOS'ie
+a - archiw- plik zapisany na dysku
+r - tylko do odczytu
+h - hidden- plik ukrtu
+s- plik systemowy 
+DOS obslugywal tylko 640 kB
+maksymalny rozmiar programu to  64 bajty.
+DOS wykorzystywal tryb rzeczywisty procesora
+
+Windows 3.1
+Microsoft wymyślił pasek tytuły,menu
+Interface graficzny:
+-okienka 
+-pasek tytułu
+-menu
+- przyciski minimalizacji 
+-przycisk minimalizacji
+-ikony
+-kafelki
