@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-13T13:16:41+01:00
+
+====== LINUXIK ======
+Created wtorek 13 marzec 2018
+
+LINUX nie oznacza systemu - oznacza jądro. 
+
+System własnościowy i zamknięty (Windows, Mac OS)
+
+Otwarte oprogramowanie
+
+Dystrybucja Linuxa: 
+-jądro
+-oprogramowanie dodatkowe 

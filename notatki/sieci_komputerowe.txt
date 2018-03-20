@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-03-20T12:55:35+01:00
+
+====== sieci komputerowe ======
+Created wtorek 20 marzec 2018
+
+HOST - dowolna maszyna (komputer, karta sieciowa, modem itp.) uczestnicząca w wymianie danych lub udostępniająca usługi sieciowe poprzez sieć komputerową za pomocą protokołu komunikacyjnego TCP/IP oraz posiadająca własny adres IP.
+
+Serwer - strona swiadczaca usluge lub udostepniajaca zasoby.
+
+klient- strona żądająca dostępu do danej usługi lub zasobu
+
+LAN - lokalna siec komputerowa
+
+skrętka jest zakończona kablem  RJ-45
+
+Switch - przełącznik sieciowy, do ktorego podpięte są wszystkie hosty i dzieki temu mogą sie komunikować.
+aby z sieci lan wyjsc na zewnatrz potrzebujemy **routera.**
+
+
+WAN- White area network czyli sieć rozległa, wkraczająca poza miasto, kraj kontynent
+kazdy router ma wbudowanego switcha
+Router ma zawsze dwa interface'y - zewnetzny i wewnetrzny 
+
+kazdy komputer posiada adres I.P =4 liczby dziesiętne zapisane z kropkami
+
+domyślna trasna - gate way(brama) czyli adres ip routera
+
+
+Adres serwera DNS jest niezbędny do połaczenia typu wp,pl
+1.adres ip} 	 ⇐ 
+2.brama   }    ⇐ 3 podstawowe czynniki do polaczenia sieciowego
+3dns         }    ⇐ 
+
+internet to sieć sieci xD
+
+komputery musza stosowac jezyk protokoolwy zeby siie porozumiec np protokół HTTP, FTP, IP
+
+Na jednym serwerze moze byc uruchomionych wiele uslug sieciowych  i zeby sie nie pomyliły sa uruchamioane na innych portalach ;)
