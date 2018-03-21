@@ -38,3 +38,22 @@ internet to sieć sieci xD
 komputery musza stosowac jezyk protokoolwy zeby siie porozumiec np protokół HTTP, FTP, IP
 
 Na jednym serwerze moze byc uruchomionych wiele uslug sieciowych  i zeby sie nie pomyliły sa uruchamioane na innych portalach ;)
+
+MODEL TCP/IP teoretyczny model warstwoej struktury protkołów komunikacyjncyh
+
+
+==== protokoły na wartswie aplikacji ====
+HTTP,FTP, HTTPS
+
+
+POP, IMAP- protokoły do dobierania poczty
+
+
+pierwsza cecha dns jest to ze to jjest baza rozproszona
+zaczyna sie od routa
+
+TPL - dpmeny najwyzszego poziomu
+
+Adres URL
+Poddomeny to są najczesciej nazy rezerwowane dla calych instytucji, firm lub dla osob prywatncyh
+WWW- nazwa hosta
