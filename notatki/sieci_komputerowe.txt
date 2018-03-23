@@ -57,3 +57,28 @@ TPL - dpmeny najwyzszego poziomu
 Adres URL
 Poddomeny to są najczesciej nazy rezerwowane dla calych instytucji, firm lub dla osob prywatncyh
 WWW- nazwa hosta
+**Protokół sterowania transmisją**, protokół kontroli transmisji, TCP (od ang. Transmission Control Protocol) – połączeniowy, niezawodny, strumieniowy protokół komunikacyjny stosowany do przesyłania danych między procesami uruchomionymi na różnych maszynach, będący częścią szeroko wykorzystywanego obecnie stosu TCP/IP (korzysta z usług protokołu IP do wysyłania i odbierania danych oraz ich fragmentacji wtedy, gdy jest to konieczne
+	ma trzy ważne cechy: jest połączeniowy(tworzy połączenia), niezawodny i stanowy.
+	
+Porty ktore mają numery od zera do tysiąca to porty do których przypisano nazwy (dobrze znane)
+
+UDP -  jeden z protokołów internetowych. UDP stosowany jest w warstwie transportowej modelu OSI. Nie gwarantuje dostarczenia datagramu.
+Jest to protokół bezpołączeniowy, więc nie ma narzutu na nawiązywanie połączenia i śledzenie sesji (w przeciwieństwie do TCP). Nie ma też mechanizmów kontroli przepływu i retransmisji. Korzyścią płynącą z takiego uproszczenia budowy jest szybsza transmisja danych i brak dodatkowych zadań, którymi musi zajmować się host posługujący się tym protokołem. Z tych względów UDP jest często używany w takich zastosowaniach jak wideokonferencje, strumienie dźwięku w Internecie i gry sieciowe, gdzie dane muszą być przesyłane możliwie szybko, a poprawianiem błędów zajmują się inne warstwy modelu OSI
+
+===== ip =====
+Protokół internetowy, IP (od ang. Internet Protocol) – protokół komunikacyjny warstwy sieciowej modelu OSI (warstwy internetu w modelu TCP/IP). Protokół internetowy to zbiór ścisłych reguł i kroków postępowania, które są automatycznie wykonywane przez urządzenia w celu nawiązania łączności i wymiany danych. Używany powszechnie w Internecie i lokalnych sieciach komputerowych.
+Adresy IP dzielimy na prywatne i publiczne
+
+Prywatne adresy IPv4
+
+Istnieje pula prywatnych adresów IP. Mogą być one wykorzystane tylko w sieciach lokalnych. Infrastruktura Internetu ignoruje te adresy IP. IANA (Internet Assigned Numbers Authority) zarezerwował następujące trzy bloki przestrzeni adresów IP dla prywatnych sieci:
+
+	10.0.0.0 - 10.255.255.255 – dla sieci prywatnych dawniej z klasy A (maska zakresu: 255.0.0.0)
+	172.16.0.0 - 172.31.255.255 – dla sieci prywatnych dawniej z klasy B (maska zakresu: 255.240.0.0)
+	192.168.0.0 - 192.168.255.255 – dla sieci prywatnych dawniej z klasy C (maska zakresu: 255.255.0.0)
+
+pierwsze trzy cyfry to adresy sieci
+192.168.3.255 ⇒ broadcast
+
+Mechanizma  — Network Address Translation
+Router zamienia adresy 
