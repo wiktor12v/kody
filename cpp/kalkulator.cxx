@@ -12,14 +12,20 @@ int main(int argc, char **argv)
     char znak; // +, -, *,/
     int a=0;
     int b=0;
-    
+    for(;;)
+    {
     cout <<"podaj pierwszą liczbę: ";
     cin>>a;
     cout<<"podaj druga liczbe: ";
     cin>>b;
-    cout<<" podaj znak działania: ";
+    cout<<"podaj znak działania: ";
     cin>> znak;
     
+    while( znak == '/' && b == 0)
+    {
+        cout<<"podaj druga liczbe: ";
+        cin>>b;
+    }
     if (znak =='+')
     {
         cout<<"suma dwoch liczb= "<<a+b;
@@ -37,8 +43,10 @@ int main(int argc, char **argv)
     if (znak =='/')
     {
         cout<<"iloraz dwoch liczb= "<<a/b;
-    
-    }   
+    }
+   if(znak == '0')
+        break;
+}
     return 0;
 }
 
