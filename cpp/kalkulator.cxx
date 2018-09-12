@@ -7,6 +7,28 @@
 #include <iostream>
 using namespace std;
 
+
+float dodaj(float a, float b)
+{
+    
+ return a +b;   
+}    
+float odejmij(float a, float b)
+{
+    
+ return a -b;   
+}    
+float mnoz(float a, float b)
+{
+    
+ return a *b;   
+}    
+float dziel(float a, float b)
+{
+    
+ return a /b;   
+}    
+
 int main(int argc, char **argv)
 {
     char znak; // +, -, *,/
@@ -28,21 +50,21 @@ int main(int argc, char **argv)
     }
     if (znak =='+')
     {
-        cout<<"suma dwoch liczb= "<<a+b;
+        cout<<"suma dwoch liczb= "<<dodaj(a,b)<<endl;
     }
     
     if (znak =='-')
     {
-        cout<<"różnica dwoch liczb= "<<a-b;    
+        cout<<"różnica dwoch liczb= "<<odejmij(a,b)<<endl;    
     }   
     if (znak =='*')
     {
-        cout<<"iloczyn dwoch liczb= "<<a*b;   
+        cout<<"iloczyn dwoch liczb= "<<mnoz(a,b)<<endl;   
     }
     
     if (znak =='/')
     {
-        cout<<"iloraz dwoch liczb= "<<a/b;
+        cout<<"iloraz dwoch liczb= "<<dziel(a,b)<<endl;
     }
    if(znak == '0')
         break;
