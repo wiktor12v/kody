@@ -23,17 +23,17 @@ def czytaj_dane(plik,separator=","):
         
     with open(plik,'r', newline='', encoding='utf-8') as plikcsv:
         tresc = csv.reader(plikcsv, delimiter=separator)
-        print(tresc)
+
         for rekord in tresc:
             dane.append(rekord)
     
     return dane 
 
-def ile_kilumn(cur, tab):
+def ile_kolumn(cur, tab):
     """F, liczy i zwraca liczbe kolumn w podanej tabeli"""
     licznik = 0
-    for kol in cur.excute("PRAGMA table_info('"+ tab +"')"):
-        licz += 1
+    for kol in cur.execute("PRAGMA table_info('"+ tab +"')"):
+        licznik += 1
     return licznik       
 
 def main(args):
@@ -53,8 +53,18 @@ def main(args):
         
     for tab in tabele:
         ile = ile_kolumn(cur, tab)
-    
-    
+        dane = czytaj_dane(tab + roz, separator=',')
+        ile_d = len(dane[0])
+        if ile > ile_d:
+            dane2= []
+            for r in dane:
+                r.insert(0, None)
+                dane2.append(r)
+            dane=dane2
+    ile = len(dane[0])
+    if naglowki:
+        dane.pop(0) #usunięcie rekordów z nagłówkow
+    cur.executemany('INSERT INTO ' + tab+ ' VALUES('+ ','.join(['?']*ile)+')', dane)    
     con.commit()
     con.close()
     
