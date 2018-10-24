@@ -219,4 +219,5 @@ Nr_ucz.,Zach.,Rel_Ety,Jpol,Jang,Jniem,Mat,Hist,Geog,Biol,Fiz,Che,Tech,Info,Plas,
 10115,wzorowe,5,5,4,5,4,5,5,4,4,5,5,,5,5,6
 10117,wzorowe,5,5,5,5,5,6,5,5,5,5,5,,6,4,5
 10118,wzorowe,5,4,5,5,5,4,5,4,4,5,5,,5,4,
-9486,wzorowe,5,5,5,5,5,5,3,4,4,4,,,,,5
+9486,wzorowe,5,5,5,5,5,5,3,4,4,4,,,,,5 
+9486,wzorowe,5,5,5,5,5,5,3,4,4,4,,,,,5 

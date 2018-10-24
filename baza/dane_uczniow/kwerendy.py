@@ -9,8 +9,18 @@ import sqlite3
 def kwerenda1(cur):
     
     cur.execute("""
-        SELECT * FROM nazwiska WHERE nazwisko LIKE 'G%'
-    """)
+        SELECT *  FROM nazwiska
+        INNER JOIN dane_osobowe ON nazwiska.nr_ucznia = dane_osobowe.nr_ucznia
+        WHERE miesiac = '10'
+             """)
+    
+    #WHERE miejsce_urodz <> 'Gdańsku'
+    #WHERE miejsce_urodz = 'Gdańsku'
+    #SELECT * FROM nazwiska
+    #INNER JOIN dane_osobowe ON nazwiska.nr_ucznia = dane_osobowe.nr_ucznia
+    #SELECT * FROM nazwiska WHERE nazwisko LIKE 'G%'##
+    #SELECT * FROM nazwiska WHERE imie1 LIKE 'A__a'#
+   
     for row in cur.fetchall():
         print(tuple(row))
 
