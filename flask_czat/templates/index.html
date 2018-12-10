@@ -8,14 +8,17 @@
 
 <head>
 <meta charset="utf-8" />
-<title>Czat</title>
-<meta name="generator" content="Geany 1.32" />
+<title>Quiz - pytania</title>
 </head>
 
 <body>
-    <h1>Witaj na serwerze!</h1>
-    <p>jakiekolwiek znaczniki HTML</p>
-    <a href="http://lo1.sandomierz.pl">Strona szkoły</a>
+    <h1>Witamy w aplikacji quiz</h1>
+    {% for p in query %}
+    <ol>
+        <li><a href="/quiz">Pytania</a></li>   
+    </ol>
+    
+    
 </body>
 
 </html>
