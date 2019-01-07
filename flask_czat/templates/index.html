@@ -1,24 +1,8 @@
-<!DOCTYPE html>
-<html lang="pl">
-<!--
-   index.html
-   
-   
--->
+{% extends "szablon.html" %}
+{% block tytul %}Quiz – strona główna{% endblock %}
+{% block h1 %}Witamy w aplikacji Quiz!{% endblock %}    
+{% block tresc %}
 
-<head>
-<meta charset="utf-8" />
-<title>Quiz - pytania</title>
-</head>
+    <h2>Zapraszamy do doawania pytań i rozwiązywania quizu!</h2>
 
-<body>
-    <h1>Witamy w aplikacji quiz</h1>
-    {% for p in query %}
-    <ol>
-        <li><a href="/quiz">Pytania</a></li>   
-    </ol>
-    
-    
-</body>
-
-</html>
+{% endblock %}

@@ -1,0 +1,16 @@
+body {
+    background:#A5A5A5;
+    color:#A52A2A;
+    
+}
+#menu li{display: inline; }
+#komnunikaty {
+        width: 80%;
+        margin: 2em;
+        border: 2px solid green;
+        border-radius: 5px;
+        background-color: Lightgrey;
+}
+span.blad {color:red;}
+span.sukces {color: green;}
+span.kom {color:blue;}        
