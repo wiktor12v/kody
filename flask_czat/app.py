@@ -2,23 +2,28 @@
 # -*- coding: utf-8 -*-
 #
 #  app.py
-# 
-from flask import Flask, g
-from flask import render_template
+#  
+from flask import g
+from modele import *
+from views import *
+import os
 
-app =Flask(__name__)
 app.config.update(dict(
-    SEKRETNY_KLUCZ= 'bardzotajnyklucz',
-    TYTUL= 'czat'
+    SECRET_KEY='bardzotajnyklucz',
+    TITLE='Czat'
 ))
-@app.route('/')
-def index():    
-    return render_template('index.html')
+# DATABASE=os.path.join(app.root_path, baza_nazwa)
+@app.before_request
+def before_request():
+    g.db = baza
+    g.db.connect(reuse_if_open=True)
 
-@app.route('/klasa')
-def index():    
-    return render_template('klasa.html')
-    
-    
+@app.after_request
+def after_request(response):
+    g.db.close()
+    return response
+
 if __name__ == '__main__':
-  app.run(debug=True)  
+    app.run(debug=True)
+    
+    
