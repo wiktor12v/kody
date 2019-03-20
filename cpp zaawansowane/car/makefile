@@ -8,4 +8,4 @@ cel: samochod.o car.o osoba.o
 .PHONY: clean
 
 clean:
-	rm -f *.o *.exe *~ core *~
+rm -f *.o *.exe *~ core *~

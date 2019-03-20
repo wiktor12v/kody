@@ -37,24 +37,28 @@ void Car::dane() {
     cout << "Przebieg: " << przebieg << endl;
 }
 
-void  Car::laduj(int)
+void Car::laduj(int)
 {
-    
-    for(int i=0; i<ileosob;i++)
-        {
-         Osoba o;   
-         cout<<"podaj dane " <<i<<"osoby"<<endl;
-         cout<<"imie: "; cin>>o.imie;
-         cout<<"nazwisko: "; cin>>o.nazwisko;
-         cout<<"plec: "; cin>>o.plec;
-         cout<<"wiek: "; cin>>o.wiek;
-         }
-     }
-     
-void Car::pasazerowie()
-{
-    for(int i=0;i<ileosob;i++)
+    cout<<"Ile osob chcesz przewiezc: "; cin>>ileosob;
+    cout<<endl;
+    for(int i=0; i<ileosob; i++)
     {
+        Osoba o;
+        cout<<"Podaj dane "<<i+1<<" osoby:"<<endl;
+        cout<<"Imie: "; cin>>o.imie;
+        cout<<"Nazwisko: "; cin>>o.nazwisko;
+        cout<<"Wiek: "; cin>>o.wiek;
+        cout<<"Plec: "; cin>>o.plec;
+        osoby[i]=o;
     }
-    
+}
+
+
+void Car::pasazerowie(int)
+{
+    cout<<endl;
+    for(int i=0; i<ileosob; i++)
+    {
+        cout<<i+1<<" osoba w samochodzie to: "<<osoby[i].imie<< " " <<osoby[i].nazwisko<<" lat "<<osoby[i].wiek<< ", plec: "<< osoby[i].plec<<endl;
+    }
 }
